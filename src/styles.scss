@@ -1,13 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-
 // Required
 $primary: #9a3c0d;
 
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
-
 
 // Optional
 @import "~bootstrap/scss/reboot";
@@ -18,10 +16,16 @@ $primary: #9a3c0d;
 @import "~bootstrap/scss/forms";
 @import "~bootstrap/scss/buttons";
 @import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/alert";
 
 body {
-    background-image: url(/assets/vintage-concrete.png);
+  background-image: url(/assets/vintage-concrete.png);
 }
+
 .form-control + label {
-    margin-top: 15px;
+  margin-top: 15px;
+}
+
+.btn {
+  cursor: pointer;
 }
